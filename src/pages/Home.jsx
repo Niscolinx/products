@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const First_Nav_List = () => {
+    //Make an array of all the nav items
     const navArr = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 
     return (
         <nav className='header__nav'>
             <ul className='header__ul'>
+                {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
                 {navArr.map((nav, idx) => (
                     <li className='header__li' key={idx + nav}>
                         <Link
@@ -20,8 +22,6 @@ const First_Nav_List = () => {
                     </li>
                 ))}
             </ul>
-
-            
         </nav>
     )
 }

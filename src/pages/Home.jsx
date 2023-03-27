@@ -188,191 +188,257 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <div class="section2">
-    <div class="line"></div>
+            <div class='section2'>
+                <div class='line'></div>
 
-    <div class="text">
-      <p class="text-p">Featured Products</p>
-    </div>
+                <div class='text'>
+                    <p class='text-p'>Featured Products</p>
+                </div>
 
-    <div class="grid">
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/curls.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Curls</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                <div class='grid'>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/curls.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>Curls</h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$18.72</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $18.72
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/fauxlocs.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Faux locs</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/fauxlocs.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>
+                                    Faux locs
+                                </h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$14.17</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $14.17
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/bonestraight.webp" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Bone Straight</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/bonestraight.webp'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>
+                                    Bone Straight
+                                </h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$21.23</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $21.23
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/boxbraid.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Boxbraids</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/boxbraid.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>
+                                    Boxbraids
+                                </h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$15.89</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $15.89
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/afro.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Afro</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/afro.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>Afro</h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$12.99</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $12.99
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/ponytail.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Ponytail</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/ponytail.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>Ponytail</h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$20.39</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $20.39
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/knotless-braids.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Knotless braids</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/knotless-braids.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>
+                                    Knotless braids
+                                </h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$19.65</a>
-          </div>
-        </div>
-      </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $19.65
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="grid-box">
-        <div class="grid-img">
-          <img src="./img/Butterfly-locs.jpg" alt="" class="grid-img__img" />
-        </div>
-        <div class="grid-text">
-          <div class="grid-text__price">
-            <h1 class="grid-text__price-price">Butterfly locs</h1>
-            <div class="grid-text__line"></div>
-          </div>
+                    <div class='grid-box'>
+                        <div class='grid-img'>
+                            <img
+                                src='./img/Butterfly-locs.jpg'
+                                alt=''
+                                class='grid-img__img'
+                            />
+                        </div>
+                        <div class='grid-text'>
+                            <div class='grid-text__price'>
+                                <h1 class='grid-text__price-price'>
+                                    Butterfly locs
+                                </h1>
+                                <div class='grid-text__line'></div>
+                            </div>
 
-          <div class="grid-text__p">
-            <p class="grid-text__p-p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="grid-text__btn">
-            <a href="#contact" class="grid-text__btn-btn">$21.23</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                            <div class='grid-text__p'>
+                                <p class='grid-text__p-p'>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit, amet consectetur
+                                    adipisicing elit.
+                                </p>
+                            </div>
+                            <div class='grid-text__btn'>
+                                <a href='#contact' class='grid-text__btn-btn'>
+                                    $21.23
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

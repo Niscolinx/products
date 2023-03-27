@@ -50,7 +50,7 @@ function Home() {
                     <div className='logo-box'>
                         <div>
                             <img
-                                src='./img/logo2.png'
+                                src='/img/logo2.png'
                                 alt='logo'
                                 className='logo-logo'
                             />
@@ -119,7 +119,7 @@ function Home() {
                         <div className='gallery-items'>
                             <div className='gallery-box'>
                                 <img
-                                    src='./img/hair.jpg.crdownload'
+                                    src='/img/hair.jpg.crdownload'
                                     alt=''
                                     className='gallery--1'
                                 />
@@ -130,32 +130,32 @@ function Home() {
                     <div className='slider'>
                         <div className='gallery-box2'>
                             <img
-                                src='./img/bridal.jpg'
+                                src='/img/bridal.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
                             <img
-                                src='./img/afro.jpg'
+                                src='/img/afro.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
                             <img
-                                src='./img/bride.jpg'
+                                src='/img/bride.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
                             <img
-                                src='./img/lipie.jpg'
+                                src='/img/lipie.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
                             <img
-                                src='./img/Butterfly-locs.jpg'
+                                src='/img/Butterfly-locs.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
                             <img
-                                src='./img/straight-orange-hair-bundles.jpg'
+                                src='/img/straight-orange-hair-bundles.jpg'
                                 alt=''
                                 className='gallery--2'
                             />
@@ -174,7 +174,7 @@ function Home() {
                         <div className='gallery-items'>
                             <div className='gallery-box'>
                                 <img
-                                    src='./img/lipstick.jpg'
+                                    src='/img/lipstick.jpg'
                                     alt=''
                                     className='gallery--3'
                                 />
@@ -184,7 +184,7 @@ function Home() {
 
                     <div className='gallery-box gallery--4'>
                         <img
-                            src='./img/wash.jpg'
+                            src='/img/wash.jpg'
                             alt=''
                             className='gallery--4'
                         />
@@ -192,7 +192,7 @@ function Home() {
 
                     <div className='gallery-box gallery--5'>
                         <img
-                            src='./img/ped.jpg'
+                            src='/img/ped.jpg'
                             alt=''
                             className='gallery--5'
                         />
@@ -200,7 +200,7 @@ function Home() {
 
                     <div className='gallery-box gallery--6'>
                         <img
-                            src='./img/beautiful-bridal-nails.jpg'
+                            src='/img/beautiful-bridal-nails.jpg'
                             alt=''
                             className='gallery--6'
                         />

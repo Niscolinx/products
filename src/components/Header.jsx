@@ -8,7 +8,7 @@ const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
 const HeaderList = ({ navList, type = 'header' }) => {
     return (
-        <nav className='header__nav'>
+        <nav className={`${type}__nav`}>
                 <ul className={`${type}__ul`}>
                     {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
                     {navList.map((nav, idx) => (

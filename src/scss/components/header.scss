@@ -1,9 +1,10 @@
 .header {
   height: 100vh;
   width: 100%;
-  // background-color: red;
+ 
+  
 
-  .secondary {
+  &__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,17 +15,9 @@
   height: 5rem;
   width: 100%;
   background: $color-brown;
-  // background: linear-gradient(
-  //   to right,
-  //   rgb(124, 1, 59),
-  //   rgb(124, 1, 59),
-  //   white,
-  //   white,
-  //   white
-  // );
+ 
   color: rgb(253, 240, 242);
   cursor: pointer;
-  // overflow: hidden;
 
   
 

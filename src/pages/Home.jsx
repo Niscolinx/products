@@ -55,11 +55,7 @@ function Home() {
                                 className='search-input'
                             />
 
-                            <input
-                                className='search-btn'
-                                type='submit'
-                                value='Search'
-                            />
+                            <button className='search-btn'>Search</button>
                         </form>
                     </div>
                 </div>

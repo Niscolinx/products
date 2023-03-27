@@ -90,7 +90,7 @@ const ProductCard = () => {}
 function Home() {
     return (
         <div>
-            <Header />
+            <Header first_list={first_list} second_list={second_list}/>
             <div class='section2'>
                 <div class='line'></div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavList = ({ list }) => {
     return (
@@ -30,7 +31,7 @@ const NavListContainer = ({ navList }) => {
 }
 
 
-const Header = () => {
+const Header = ({first_list, second_list}) => {
     return (
         <section className='header'>
             <NavListContainer navList={first_list} />

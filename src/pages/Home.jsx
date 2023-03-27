@@ -76,12 +76,6 @@ const Gallery = () => {
     )
 }
 
-const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
-const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
-
-
-
-
 
 
 
@@ -90,7 +84,7 @@ const ProductCard = () => {}
 function Home() {
     return (
         <div>
-            <Header first_list={first_list} second_list={second_list}/>
+            <Header/>
             <div class='section2'>
                 <div class='line'></div>
 

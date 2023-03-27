@@ -2,7 +2,9 @@ import React from 'react'
 
 
 const First_Nav_List = () => {
+    const navArr = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 
+    
 }
 
 function Home() {

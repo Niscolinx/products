@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const First_Nav_List = () => {
+const FirstNavList = () => {
     //Make an array of all the nav items
     const navArr = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 
@@ -29,11 +29,15 @@ const First_Nav_List = () => {
     )
 }
 
+const ProductCard = () => {
+
+}
+
 function Home() {
     return (
         <div>
             <section className='header'>
-                <First_Nav_List />
+                <FirstNavList />
 
                 <div className='logo'>
                     <div className='logo-box'>

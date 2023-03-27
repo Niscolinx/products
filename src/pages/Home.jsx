@@ -77,11 +77,10 @@ const Gallery = () => {
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const NavList = () => {
+const NavList = ({navArr}) => {
     //Make an array of all the nav items
 
     return (
-        <nav className='header__nav'>
             <ul className='header__ul'>
                 {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
                 {navArr.map((nav, idx) => (
@@ -97,15 +96,17 @@ const NavList = () => {
                     </li>
                 ))}
             </ul>
-            <div className='header__datebox'>
-                <span className='header__date'>20/02/2023</span>
-            </div>
-        </nav>
+           
     )
 }
 
 const NavListContainer = () => {
-    return <nav className='header__nav'></nav>
+    return <nav className='header__nav'>
+
+ <div className='header__datebox'>
+                <span className='header__date'>20/02/2023</span>
+            </div>
+    </nav>
 }
 
 const ProductCard = () => {}

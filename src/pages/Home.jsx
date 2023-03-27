@@ -81,16 +81,7 @@ const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
 
 
-const NavListContainer = ({ navList }) => {
-    return (
-        <nav className='header__nav'>
-            <NavList list={navList} />
-            <div className='header__datebox'>
-                <span className='header__date'>20/02/2023</span>
-            </div>
-        </nav>
-    )
-}
+
 
 
 

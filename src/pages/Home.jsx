@@ -77,36 +77,33 @@ const Gallery = () => {
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const NavList = ({navArr}) => {
-    //Make an array of all the nav items
-
+const NavList = ({ navArr }) => {
     return (
-            <ul className='header__ul'>
-                {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
-                {navArr.map((nav, idx) => (
-                    <li className='header__li' key={idx + nav}>
-                        <Link
-                            to={'#'}
-                            className={`header__link ${
-                                idx === 0 && 'active-link'
-                            }`}
-                        >
-                            {nav}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-           
+        <ul className='header__ul'>
+            {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
+            {navArr.map((nav, idx) => (
+                <li className='header__li' key={idx + nav}>
+                    <Link
+                        to={'#'}
+                        className={`header__link ${idx === 0 && 'active-link'}`}
+                    >
+                        {nav}
+                    </Link>
+                </li>
+            ))}
+        </ul>
     )
 }
 
 const NavListContainer = () => {
-    return <nav className='header__nav'>
-
- <div className='header__datebox'>
+    return (
+        <nav className='header__nav'>
+            <NavList navArr={first_list}/>
+            <div className='header__datebox'>
                 <span className='header__date'>20/02/2023</span>
             </div>
-    </nav>
+        </nav>
+    )
 }
 
 const ProductCard = () => {}
@@ -115,7 +112,7 @@ function Home() {
     return (
         <div>
             <section className='header'>
-                <FirstNavList />
+                <NavListContainer />
 
                 <div className='logo'>
                     <div className='logo-box'>

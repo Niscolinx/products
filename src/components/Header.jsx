@@ -27,9 +27,12 @@ const HeaderList = ({ navList, type }) => {
     return (
         <nav className='header__nav'>
 
-            <List list={navList} />
+            <div className="header__nav--primary">
 
-            <div className='header__secondary'>
+            <List list={navList} />
+            </div>
+
+            <div className='header__nav--secondary'>
                 <span className='header__date'>20/02/2023</span>
             </div>
         </nav>
@@ -67,7 +70,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <NavListContainer navList={second_list} type={'secondary'}/>
+            <HeaderList navList={second_list} type={'secondary'}/>
 
             <div className='secondary'>
                 <nav className='secondary__nav'>

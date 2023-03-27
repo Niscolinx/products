@@ -95,10 +95,10 @@ const NavList = ({ list }) => {
     )
 }
 
-const NavListContainer = ({navList}) => {
+const NavListContainer = ({ navList }) => {
     return (
         <nav className='header__nav'>
-            <NavList list={navList}/>
+            <NavList list={navList} />
             <div className='header__datebox'>
                 <span className='header__date'>20/02/2023</span>
             </div>
@@ -107,7 +107,6 @@ const NavListContainer = ({navList}) => {
 }
 
 const Header = () => {
-
     return (
         <section className='header'>
             <NavListContainer navList={first_list} />
@@ -123,16 +122,16 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='search-box'>
-                    <form className='search-form'>
+                <div className='searchBox'>
+                    <form className='searchBox__form'>
                         <input
                             type='text'
                             name='search'
                             placeholder='&#x1F50D;'
-                            className='search-input'
+                            className='searchBox__input'
                         />
 
-                        <button className='search-btn'>Search</button>
+                        <button className='searchBox__btn'>Search</button>
                     </form>
                 </div>
             </div>
@@ -186,7 +185,7 @@ const ProductCard = () => {}
 function Home() {
     return (
         <div>
-            <Header/>
+            <Header />
             <div class='section2'>
                 <div class='line'></div>
 

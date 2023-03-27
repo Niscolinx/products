@@ -37,7 +37,7 @@ const HeaderList = ({ navList, type = 'primary' }) => {
 const Header = () => {
     return (
         <section className='header'>
-            <HeaderList navList={first_list} type={'header__primary'} />
+            <HeaderList navList={first_list} type={'primary'} />
 
             <div className='logo'>
                 <div className='logo-box'>

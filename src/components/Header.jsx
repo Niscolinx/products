@@ -65,7 +65,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <NavListContainer navList={second_list} />
+            <NavListContainer navList={second_list} which={'secondary'}/>
 
             <div className='secondary'>
                 <nav className='secondary__nav'>

@@ -77,11 +77,11 @@ const Gallery = () => {
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const NavList = ({ navArr }) => {
+const NavList = ({ list }) => {
     return (
         <ul className='header__ul'>
             {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
-            {navArr.map((nav, idx) => (
+            {list.map((nav, idx) => (
                 <li className='header__li' key={idx + nav}>
                     <Link
                         to={'#'}
@@ -95,10 +95,10 @@ const NavList = ({ navArr }) => {
     )
 }
 
-const NavListContainer = () => {
+const NavListContainer = ({navList}) => {
     return (
         <nav className='header__nav'>
-            <NavList navArr={first_list}/>
+            <NavList list={navList}/>
             <div className='header__datebox'>
                 <span className='header__date'>20/02/2023</span>
             </div>
@@ -112,7 +112,7 @@ function Home() {
     return (
         <div>
             <section className='header'>
-                <NavListContainer />
+                <NavListContainer navList={first_list}/>
 
                 <div className='logo'>
                     <div className='logo-box'>

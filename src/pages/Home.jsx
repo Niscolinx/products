@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { CiSearch } from 'react-icons/ci'
 
 const Gallery = () => {
     return (

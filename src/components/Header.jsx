@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
+const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
+const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
+
 const NavList = ({ list }) => {
     return (
         <ul className='header__ul'>
@@ -31,7 +35,7 @@ const NavListContainer = ({ navList }) => {
 }
 
 
-const Header = ({first_list, second_list}) => {
+const Header = () => {
     return (
         <section className='header'>
             <NavListContainer navList={first_list} />

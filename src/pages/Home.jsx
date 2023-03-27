@@ -137,6 +137,8 @@ const Header = () => {
                 </div>
             </div>
 
+            <NavListContainer navList={second_list} />
+
             <div className='secondary'>
                 <nav className='secondary__nav'>
                     <ul className='secondary__ul'>

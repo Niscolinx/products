@@ -4,7 +4,44 @@ import React from 'react'
 const First_Nav_List = () => {
     const navArr = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 
-    
+    return (
+        <nav className='header__nav'>
+            {navArr.map((nav, idx) => (
+                <li className='header__li' key={idx+nav}>
+                    <a href='#' className='header__link active-link'>
+                        Home
+                    </a>
+                </li>
+            ))}
+            <ul className='header__ul'>
+                <li className='header__li'>
+                    <a href='#' className='header__link active-link'>
+                        Home
+                    </a>
+                </li>
+                <li className='header__li'>
+                    <a href='about.html' className='header__link'>
+                        About
+                    </a>
+                </li>
+                <li className='header__li'>
+                    <a href='#footer' className='header__link'>
+                        Contacts
+                    </a>
+                </li>
+                <li className='header__li'>
+                    <a href='#' className='header__link'>
+                        Services
+                    </a>
+                </li>
+                <li className='header__li'>
+                    <a href='feedback.html' className='header__link'>
+                        Feedback
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    )
 }
 
 function Home() {

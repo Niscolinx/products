@@ -74,9 +74,11 @@ const Gallery = () => {
     )
 }
 
-const FirstNavList = () => {
+const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
+const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
+
+const NavList = () => {
     //Make an array of all the nav items
-    const navArr = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 
     return (
         <nav className='header__nav'>
@@ -102,9 +104,11 @@ const FirstNavList = () => {
     )
 }
 
-const ProductCard = () => {
-
+const NavListContainer = () => {
+    return <nav className='header__nav'></nav>
 }
+
+const ProductCard = () => {}
 
 function Home() {
     return (
@@ -141,7 +145,10 @@ function Home() {
                     <nav className='secondary__nav'>
                         <ul className='secondary__ul'>
                             <li className='secondary__li'>
-                                <a href='braids.html' className='secondary__link'>
+                                <a
+                                    href='braids.html'
+                                    className='secondary__link'
+                                >
                                     Braids
                                 </a>
                             </li>
@@ -175,8 +182,6 @@ function Home() {
                         </p>
                     </div>
                 </div>
-
-               
             </section>
             <div class='section2'>
                 <div class='line'></div>

@@ -5,7 +5,6 @@ const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
 
-
 const HeaderList = ({ navList, type = 'primary' }) => {
     return (
         <div className={`header__list`}>

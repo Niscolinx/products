@@ -1,36 +1,30 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const List = ({ list }) => {
-    return (
-        <ul className='header__ul'>
-            {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
-            {list.map((nav, idx) => (
-                <li className='header__li' key={idx + nav}>
-                    <Link
-                        to={'#'}
-                        className={`header__link ${idx === 0 && 'active-link'}`}
-                    >
-                        {nav}
-                    </Link>
-                </li>
-            ))}
-        </ul>
-    )
-}
+
 
 const HeaderList = ({ navList, type }) => {
     return (
         <nav className='header__nav'>
-
-            <div className="header__nav--primary">
-
-            <List list={navList} />
-            </div>
+                <ul className='header__ul'>
+                    {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
+                    {navList.map((nav, idx) => (
+                        <li className='header__li' key={idx + nav}>
+                            <Link
+                                to={'#'}
+                                className={`header__link ${
+                                    idx === 0 && 'active-link'
+                                }`}
+                            >
+                                {nav}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+         
 
             <div className='header__nav--secondary'>
                 <span className='header__date'>20/02/2023</span>
@@ -38,7 +32,6 @@ const HeaderList = ({ navList, type }) => {
         </nav>
     )
 }
-
 
 const Header = () => {
     return (
@@ -70,7 +63,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <HeaderList navList={second_list} type={'secondary'}/>
+            <HeaderList navList={second_list} type={'secondary'} />
 
             <div className='secondary'>
                 <nav className='secondary__nav'>

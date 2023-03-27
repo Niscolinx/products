@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const HeaderList = ({ navList, type = 'header' }) => {
+const HeaderList = ({ navList, type = 'primary' }) => {
     return (
-        <div className='secondary'>
+        <div className={type}>
             <nav className={`${type}__nav`}>
                 <ul className={`${type}__ul`}>
                     {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}

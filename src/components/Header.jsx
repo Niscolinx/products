@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-const NavList = ({ list }) => {
+const List = ({ list }) => {
     return (
         <ul className='header__ul'>
             {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
@@ -23,11 +23,13 @@ const NavList = ({ list }) => {
     )
 }
 
-const NavListContainer = ({ navList }) => {
+const HeaderList = ({ navList, type }) => {
     return (
         <nav className='header__nav'>
-            <NavList list={navList} />
-            <div className='header__datebox'>
+
+            <List list={navList} />
+
+            <div className='header__secondary'>
                 <span className='header__date'>20/02/2023</span>
             </div>
         </nav>
@@ -38,7 +40,7 @@ const NavListContainer = ({ navList }) => {
 const Header = () => {
     return (
         <section className='header'>
-            <NavListContainer navList={first_list} />
+            <HeaderList navList={first_list} />
 
             <div className='logo'>
                 <div className='logo-box'>
@@ -65,7 +67,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <NavListContainer navList={second_list} which={'secondary'}/>
+            <NavListContainer navList={second_list} type={'secondary'}/>
 
             <div className='secondary'>
                 <nav className='secondary__nav'>

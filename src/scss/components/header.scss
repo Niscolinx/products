@@ -26,66 +26,7 @@
   cursor: pointer;
   // overflow: hidden;
 
-  &__ul {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0.6rem;
-    margin-left: 15rem;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      margin-left: 2rem;
-      padding-top: 0.3rem;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      margin-left: 5rem;
-      padding-top: 0.5rem;
-    }
-  }
-
-  &__li {
-    list-style: none;
-    margin-right: 3rem;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      margin-right: 3px;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      margin-right: 5px;
-    }
-  }
-
-  &__link {
-    text-decoration: none;
-    color: rgb(253, 240, 242);
-    //border-radius: 0.8rem;
-    // background-color: #965e83;
-    padding: 1.6rem 0.5rem;
-    // transition: all 0.2s;
-
-    &:hover {
-      //box-shadow: 0px 0px 5px rgb(124, 1, 59), 0px 0px 15px #330110b0;
-      //  transform: scale(1.05) translateY(-7px);
-      background-color: rgb(248, 204, 248);
-      color: rgb(65, 1, 31);
-    }
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      padding: 2px;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      padding: 5px;
-    }
-
-    //   &__icon {
-    //     position: absolute;
-    //     left: 2rem;
-    //     color: rgb(241, 7, 7);
-    //     font-size: 1em;
-    //     cursor: pointer;
-    //   z-index: 2;
-    //   // background-color: green;
-    // }
-  }
+  
 
   @media screen and (min-width: 300px) and (max-width: 500px) {
     padding: 7px;

@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom'
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
-
-
 const HeaderList = ({ navList, type = 'header' }) => {
     return (
-        <nav className={`${type}__nav`}>
+        <div className='secondary'>
+            <nav className={`${type}__nav`}>
                 <ul className={`${type}__ul`}>
                     {/* Loop through the array, and make each item to be list, also the key is very important in react to differenciate the individual items, thus it must be unique */}
                     {navList.map((nav, idx) => (
@@ -25,13 +24,11 @@ const HeaderList = ({ navList, type = 'header' }) => {
                     ))}
                 </ul>
 
-
-         
-
-            <div className='header__nav--secondary'>
-                <span className='header__date'>20/02/2023</span>
-            </div>
-        </nav>
+                <div className='header__nav--secondary'>
+                    <span className='header__date'>20/02/2023</span>
+                </div>
+            </nav>
+        </div>
     )
 }
 

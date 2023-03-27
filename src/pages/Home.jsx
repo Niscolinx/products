@@ -22,6 +22,9 @@ const First_Nav_List = () => {
                     </li>
                 ))}
             </ul>
+            <div className='header__datebox'>
+                <span className='header__date'>20/02/2023</span>
+            </div>
         </nav>
     )
 }
@@ -30,47 +33,7 @@ function Home() {
     return (
         <div>
             <section className='header'>
-                <div className='header-list'>
-                    <nav className='header__nav'>
-                        <ul className='header__ul'>
-                            <li className='header__li'>
-                                <a
-                                    href='#'
-                                    className='header__link active-link'
-                                >
-                                    Home
-                                </a>
-                            </li>
-                            <li className='header__li'>
-                                <a href='about.html' className='header__link'>
-                                    About
-                                </a>
-                            </li>
-                            <li className='header__li'>
-                                <a href='#footer' className='header__link'>
-                                    Contacts
-                                </a>
-                            </li>
-                            <li className='header__li'>
-                                <a href='#' className='header__link'>
-                                    Services
-                                </a>
-                            </li>
-                            <li className='header__li'>
-                                <a
-                                    href='feedback.html'
-                                    className='header__link'
-                                >
-                                    Feedback
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <div className='header__datebox'>
-                        <span className='header__date'>20/02/2023</span>
-                    </div>
-                </div>
+                <First_Nav_List />
 
                 <div className='logo'>
                     <div className='logo-box'>

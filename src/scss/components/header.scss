@@ -3,6 +3,107 @@
   width: 100%;
   // background-color: red;
 
+  .secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-right: 4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: 5rem;
+  width: 100%;
+  background: rgb(124, 1, 59);
+  // background: linear-gradient(
+  //   to right,
+  //   rgb(124, 1, 59),
+  //   rgb(124, 1, 59),
+  //   white,
+  //   white,
+  //   white
+  // );
+  color: rgb(253, 240, 242);
+  cursor: pointer;
+  // overflow: hidden;
+
+  &__ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.6rem;
+    margin-left: 15rem;
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+      margin-left: 2rem;
+      padding-top: 0.3rem;
+    }
+    @media screen and (min-width: 501px) and (max-width: 700px) {
+      margin-left: 5rem;
+      padding-top: 0.5rem;
+    }
+  }
+
+  &__li {
+    list-style: none;
+    margin-right: 3rem;
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+      margin-right: 3px;
+    }
+    @media screen and (min-width: 501px) and (max-width: 700px) {
+      margin-right: 5px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: rgb(253, 240, 242);
+    //border-radius: 0.8rem;
+    // background-color: #965e83;
+    padding: 1.6rem 0.5rem;
+    // transition: all 0.2s;
+
+    &:hover {
+      //box-shadow: 0px 0px 5px rgb(124, 1, 59), 0px 0px 15px #330110b0;
+      //  transform: scale(1.05) translateY(-7px);
+      background-color: rgb(248, 204, 248);
+      color: rgb(65, 1, 31);
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+      padding: 2px;
+    }
+    @media screen and (min-width: 501px) and (max-width: 700px) {
+      padding: 5px;
+    }
+
+    //   &__icon {
+    //     position: absolute;
+    //     left: 2rem;
+    //     color: rgb(241, 7, 7);
+    //     font-size: 1em;
+    //     cursor: pointer;
+    //   z-index: 2;
+    //   // background-color: green;
+    // }
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    padding: 7px;
+    padding-right: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    height: 4rem;
+  }
+
+  @media screen and (min-width: 501px) and (max-width: 700px) {
+    padding: 8px;
+    padding-right: 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    height: 4rem;
+  }
+}
+
   &__nav{
     padding: 1rem;
     height: 4rem;
@@ -167,106 +268,7 @@
   }
 }
 
-.secondary {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  padding-right: 4rem;
-  font-weight: 700;
-  font-size: 1.8rem;
-  height: 5rem;
-  width: 100%;
-  background: rgb(124, 1, 59);
-  // background: linear-gradient(
-  //   to right,
-  //   rgb(124, 1, 59),
-  //   rgb(124, 1, 59),
-  //   white,
-  //   white,
-  //   white
-  // );
-  color: rgb(253, 240, 242);
-  cursor: pointer;
-  // overflow: hidden;
 
-  &__ul {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0.6rem;
-    margin-left: 15rem;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      margin-left: 2rem;
-      padding-top: 0.3rem;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      margin-left: 5rem;
-      padding-top: 0.5rem;
-    }
-  }
-
-  &__li {
-    list-style: none;
-    margin-right: 3rem;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      margin-right: 3px;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      margin-right: 5px;
-    }
-  }
-
-  &__link {
-    text-decoration: none;
-    color: rgb(253, 240, 242);
-    //border-radius: 0.8rem;
-    // background-color: #965e83;
-    padding: 1.6rem 0.5rem;
-    // transition: all 0.2s;
-
-    &:hover {
-      //box-shadow: 0px 0px 5px rgb(124, 1, 59), 0px 0px 15px #330110b0;
-      //  transform: scale(1.05) translateY(-7px);
-      background-color: rgb(248, 204, 248);
-      color: rgb(65, 1, 31);
-    }
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      padding: 2px;
-    }
-    @media screen and (min-width: 501px) and (max-width: 700px) {
-      padding: 5px;
-    }
-
-    //   &__icon {
-    //     position: absolute;
-    //     left: 2rem;
-    //     color: rgb(241, 7, 7);
-    //     font-size: 1em;
-    //     cursor: pointer;
-    //   z-index: 2;
-    //   // background-color: green;
-    // }
-  }
-
-  @media screen and (min-width: 300px) and (max-width: 500px) {
-    padding: 7px;
-    padding-right: 1rem;
-    font-weight: 500;
-    font-size: 1.5rem;
-    height: 4rem;
-  }
-
-  @media screen and (min-width: 501px) and (max-width: 700px) {
-    padding: 8px;
-    padding-right: 1rem;
-    font-weight: 600;
-    font-size: 1.6rem;
-    height: 4rem;
-  }
-}
 
 // .dark__search {
 //   //color: transparent;
@@ -473,222 +475,7 @@
 //   }
 // }
 
-.gallery {
-  height: calc(100vh - 140px);
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  //grid-gap: 1rem;
-  padding: 1.5rem;
-  background-color: rgb(248, 204, 248);
-  overflow: hidden;
 
-  @media screen and (min-width: 300px) and (max-width: 500px) {
-    padding: 0.8rem;
-  }
-
-  // & > * {
-  //   //@at-root this code alows all images to fit perfectly into their cells
-
-  //   width: 100%;
-  //   height: 100%;
-  //   //position: relative;
-  //   object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-  //   display: block;
-  // }
-
-  &-container {
-    grid-column: 1/2; //hori
-    grid-row: 1 / span 3; //vertical
-  }
-
-  &-container-4 {
-    grid-column: 1/2;
-    grid-row: 4/-1;
-  }
-
-  &-items {
-    width: 100%;
-    height: 100%;
-    // object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    // display: block;
-    position: relative;
-  }
-
-  &-box,
-  &-box2 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: all 0.2s ease;
-
-    &:hover {
-      transform: scale(1.07);
-      //z-index: 1;
-    }
-  }
-
-  &-text {
-    position: absolute;
-    display: block;
-    top: 10%;
-    left: 6%;
-  }
-
-  &-textR {
-    position: absolute;
-    display: block;
-    top: 6%;
-    right: 40%;
-  }
-
-  &-textL {
-    position: absolute;
-    display: block;
-    // top: 20%;
-    // right: 50%;
-  }
-
-  &-p {
-    // position: absolute;
-    font-size: 3rem;
-    font-weight: bold;
-    color: rgb(247, 49, 231);
-    line-height: 2.5rem;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  &-span {
-    font-size: 3.5rem;
-    // font-weight: bolder;
-    color: white;
-    display: block;
-
-    @media screen and (min-width: 300px) and (max-width: 350px) {
-      display: none;
-    }
-  }
-
-  &-pL {
-    // position: absolute;
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: rgb(247, 49, 231);
-    //line-height: 2.5rem;
-    @media screen and (min-width: 300px) and (max-width: 350px) {
-      display: none;
-    }
-  }
-
-  &-spanL {
-    font-size: 1rem;
-    // font-weight: bolder;
-    color: white;
-    display: block;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  // .slider {
-  // grid-column: 2/4;
-  // grid-row: 1 / span 3;
-  // height: 100%;
-  // width: 100%;
-  //position: relative;
-  //}
-
-  &--1 {
-    // grid-column: 1/2; //hori
-    // grid-row: 1 / span 3; //vertical
-    width: 100%;
-    height: 100%;
-    object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    // display: block;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  &-box2 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-
-    // @media screen and (min-width: 300px) and (max-width: 350px) {
-    //   display: block;
-    // }
-  }
-
-  &--3 {
-    grid-column: 4/-1;
-    grid-row: 1 / span 3;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    display: block;
-    object-position: 50% 50%;
-    // background-image: url(./img/lipstick.jpg);
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  &--4 {
-    grid-column: 1/2;
-    grid-row: 4/-1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    display: block;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  &--5 {
-    grid-column: 2 / span 2;
-    grid-row: 4/-1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    display: block;
-    object-position: 50% 46%;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  &--6 {
-    grid-column: 4/-1;
-    grid-row: 4/-1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-    display: block;
-    object-position: 50% 20%;
-
-    @media screen and (min-width: 300px) and (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  // &--photo {
-  //   width: 100%;
-  //   height: 100%;
-  //   object-fit: cover; // the code below alows the img to ocupy the exact specified cell without overflowing
-  //   display: block;
-  //   object-position: 50% 60%;
-  // }
-}
 
 /* SLIDER */
 .slider {

@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 const first_list = ['Home', 'About', 'Contacts', 'Services', 'Feedback']
 const second_list = ['Braids', 'Wigs', 'Hair', 'Makeup', 'Nails']
 
+
+
 const HeaderList = ({ navList, type = 'primary' }) => {
     return (
         <div className={type}>
@@ -35,7 +37,7 @@ const HeaderList = ({ navList, type = 'primary' }) => {
 const Header = () => {
     return (
         <section className='header'>
-            <HeaderList navList={first_list} type={'header'} />
+            <HeaderList navList={first_list} type={'header__primary'} />
 
             <div className='logo'>
                 <div className='logo-box'>
